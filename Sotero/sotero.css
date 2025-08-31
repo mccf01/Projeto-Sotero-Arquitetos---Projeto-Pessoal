@@ -1,0 +1,126 @@
+* {
+    background-color: white;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif, Helvetica;
+    font-size: 14px;
+}
+
+#header_div {
+    height: 65px;
+    width: fit-content;
+}
+
+.img_header {
+    padding-left: 60px;
+}
+
+#img_nav {
+    max-width: 100%;
+    height: auto;
+}
+
+.img_lateral {
+    float:right;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+#main {
+    width: 85%;
+    margin-left: 80px;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    display:flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.main_text {
+    float:left;
+}
+
+.main_title {
+    font-weight: bold;
+    font-size: 38px;
+    padding-left: 15px;
+}
+
+.main_p {
+    font-size: larger;
+    padding: 15px;
+}
+
+#img_lateral_top {
+    display:block;
+    padding-bottom: 30px;
+    width:fit-content
+}
+
+#img_lateral_bottom {
+    width: fit-content;
+    height: auto;
+}
+
+#premiado_box_p {
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#premiado_box_h1 {
+    padding-left: 20px;
+}
+
+.premiado_left_box {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+
+#premiado {
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 25px;
+    align-items: start;
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.premiado_main_box, .premiado_end_box, .premiado_ul {
+    font-size: large;
+    list-style: none;
+    font-family: 'Monteserrat', sans-serif, Helvetica;
+    color:rgb(153, 153, 153);
+}
+
+footer{
+    margin-top: 65px;
+    border-top: 3px solid lightgray;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer_left {
+    display: flex;
+}
+
+#footer_ul li {
+    list-style: none;
+    padding-bottom: 25px;
+    padding-top: 3px;
+    font-size: medium;
+}
+
+#footer_end_ul li {
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
