@@ -1,0 +1,159 @@
+* {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif, Helvetica;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+#img_header {
+    padding: 20px 0 25px 45px;
+}
+
+#top_title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    border-bottom: 2px solid lightgray;
+}
+
+#top_title p {
+    padding-top: 20px;
+}
+
+#top_mid h2 {
+    padding-bottom: 15px;
+}
+
+#top_mid_p {
+    line-height: 1.5;
+}
+
+#top_mid p {
+    font-size: larger;
+}
+
+#top_bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top_bottom_left_box {
+    justify-self: start;
+    border: 2px solid lightgray;
+    padding: 5px 30px;
+}
+
+.top_bottom_right_group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+
+.top_bottom_mid_box, .top_bottom_right_box {
+    border: 2px solid lightgray;
+    padding: 5px 30px;
+}
+
+#img_1 {
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    display: block;
+}
+
+#main_title {
+    display: block;
+    margin: 15px auto;
+    border: 2px solid lightgray;
+    width: 45%;
+    text-align: center;
+    padding: 24px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#main_title_bottom {
+    display: block;
+    width:45%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: larger;
+}
+
+#grid_img_bottom {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 70px;
+}
+
+#grid_img_bottom img {
+    display:block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#img_5 {
+    width: 100%;
+    height: auto;
+    margin: 70px 0px;
+}
+
+#premiado {
+    display: flex;
+    justify-content: space-between;
+}
+
+#premiado_right_box ul li {
+    list-style: none;
+    padding-bottom: 15px;
+    color: gray;
+    font-size: large;
+}
+
+#premiado_left_box {
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#premiado_left_box p {
+    padding-bottom: 25px;
+    font-size: x-large;
+}
+
+#premiado_left_box h1 {
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    margin-top: 75px;
+}
+
+#footer_ul li {
+    list-style: none;
+    padding-bottom: 25px;
+    padding-top: 14px;
+}
+
+#footer_left {
+    display: flex;
+    gap: 40px;
+}
+
+#footer_right ul li {
+    list-style: none;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
