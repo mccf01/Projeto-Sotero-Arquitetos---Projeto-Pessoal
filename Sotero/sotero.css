@@ -10,7 +10,26 @@ p {
 
 #header_div {
     height: 65px;
-    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav_links a {
+    color: black;
+    display: inline-block;
+}
+
+#nav_links a:hover {
+    background-color: gray;
+}
+
+#nav_links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    width:100%;
+    flex-wrap: wrap;
 }
 
 .img_header {
